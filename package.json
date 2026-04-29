@@ -1,0 +1,54 @@
+{
+  "name": "whatsapp-automation-pro",
+  "version": "9.0.0",
+  "type": "module",
+  "description": "Production-grade WhatsApp automation tool with anti-ban system, bulk messaging, group management, and enterprise features",
+  "main": "backend/server.cjs",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "start": "node backend/server.cjs",
+    "start:backend": "node backend/server.cjs",
+    "start:production": "cross-env NODE_ENV=production node backend/server.cjs",
+    "typecheck": "tsc --noEmit"
+  },
+  "keywords": [
+    "whatsapp",
+    "automation",
+    "bulk-messaging",
+    "anti-ban",
+    "marketing",
+    "enterprise"
+  ],
+  "author": "WhatsApp Automation Pro",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^1.6.2",
+    "clsx": "^2.1.1",
+    "date-fns": "^2.30.0",
+    "lucide-react": "^0.294.0",
+    "qrcode.react": "^4.2.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^6.20.0",
+    "recharts": "^2.10.0",
+    "tailwind-merge": "^3.5.0",
+    "xlsx": "^0.18.5",
+    "zustand": "^4.4.7"
+  },
+  "devDependencies": {
+    "@tailwindcss/vite": "^4.0.0",
+    "@types/react": "^18.2.42",
+    "@types/react-dom": "^18.2.17",
+    "@vitejs/plugin-react": "^4.2.1",
+    "cross-env": "^7.0.3",
+    "tailwindcss": "^4.0.0",
+    "typescript": "^5.3.2",
+    "vite": "^5.0.6"
+  },
+  "engines": {
+    "node": ">=18.0.0",
+    "npm": ">=9.0.0"
+  }
+}
