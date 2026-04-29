@@ -1,0 +1,63 @@
+# Dependencies
+node_modules/
+package-lock.json
+yarn.lock
+
+# Build output
+dist/
+build/
+
+# Environment & Secrets
+.env
+.env.local
+.env.*.local
+!.env.example
+
+# Runtime data
+logs/
+*.log
+*.log.gz
+wa-sessions/
+backend/wa-sessions/
+uploads/
+backend/uploads/
+backups/
+analytics.db
+analytics.db-*
+
+# OS / IDE
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.project
+.settings/
+
+# Process managers
+.pm2/
+
+# Database
+*.db
+*.sqlite
+*.sqlite3
+
+# Cache
+.cache/
+.eslintcache
+tsconfig.tsbuildinfo
+
+# Testing
+coverage/
+.nyc_output/
+
+# Temporary
+tmp/
+temp/
+.tmp/
+
+# IDE
+*.sublime-workspace
+*.sublime-project
